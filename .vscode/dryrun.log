@@ -1,0 +1,1073 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/root/com/wiredtiger'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing aclocal-1.13 -I build_posix/aclocal
+ 
+ cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing automake-1.13 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --no-create --no-recursion
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking whether make supports nested variables...  
+(cached) yes
+ 
+checking for cc...  
+cc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether cc accepts -g...  
+yes
+ 
+checking for cc option to accept ISO C89...  
+none needed
+ 
+checking for style of include used by make...  
+GNU
+ 
+checking dependency style of cc...  
+gcc3
+ 
+checking for c++...  
+no
+ 
+checking for g++...  
+g++
+ 
+checking whether we are using the GNU C++ compiler...  
+yes
+ 
+checking whether g++ accepts -g...  
+yes
+ 
+checking dependency style of g++...  
+gcc3
+ 
+checking dependency style of cc...  
+gcc3
+ 
+checking whether the C++ compiler works...  
+yes
+ 
+checking build system type...  
+x86_64-unknown-linux-gnu
+ 
+checking host system type...  
+x86_64-unknown-linux-gnu
+ 
+checking how to print strings...  
+printf
+ 
+checking for a sed that does not truncate output...  
+/usr/bin/sed
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for fgrep...  
+/usr/bin/grep -F
+ 
+checking for ld used by cc...  
+/usr/bin/ld
+ 
+checking if the linker (/usr/bin/ld) is GNU ld...  
+yes
+ 
+checking for BSD- or MS-compatible name lister (nm)...  
+/usr/bin/nm -B
+ 
+checking the name lister (/usr/bin/nm -B) interface...  
+BSD nm
+checking whether ln -s works...  
+yes
+checking the maximum length of command line arguments...  
+3458764513820540925
+ 
+checking whether the shell understands some XSI constructs...  
+yes
+ 
+checking whether the shell understands "+="...  
+yes
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format...  
+func_convert_file_noop
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format...  
+func_convert_file_noop
+ 
+checking for /usr/bin/ld option to reload object files...  
+-r
+ 
+checking for objdump...  
+objdump
+ 
+checking how to recognize dependent libraries...  
+pass_all
+ 
+checking for dlltool...  
+no
+ 
+checking how to associate runtime and link libraries...  
+printf %s\n
+ 
+checking for ar...  
+ar
+ 
+checking for archiver @FILE support...  
+@
+ 
+checking for strip...  
+strip
+ 
+checking for ranlib...  
+ranlib
+ 
+checking command to parse /usr/bin/nm -B output from cc object...  
+ok
+ 
+checking for sysroot...  
+no
+ 
+checking for mt...  
+no
+ 
+checking if : is a manifest tool...  
+no
+ 
+checking how to run the C preprocessor...  
+cc -E
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking for dlfcn.h...  
+yes
+ 
+checking for objdir...  
+.libs
+ 
+checking if cc supports -fno-rtti -fno-exceptions...  
+no
+ 
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works...  
+yes
+ 
+checking if cc static flag -static works...  
+no
+ 
+checking if cc supports -c -o file.o...  
+yes
+ 
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries...  
+yes
+ 
+checking whether -lc should be explicitly linked in...  
+no
+checking dynamic linker characteristics...  
+GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor...  
+g++ -E
+ 
+checking for ld used by g++...  
+/usr/bin/ld -m elf_x86_64
+ 
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld...  
+yes
+ 
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries...  
+yes
+ 
+checking for g++ option to produce PIC...  
+-fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works...  
+yes
+ 
+checking if g++ static flag -static works...  
+no
+ 
+checking if g++ supports -c -o file.o...  
+yes
+ 
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics...  
+(cached)  
+GNU/Linux ld.so
+ 
+checking how to hardcode library paths into programs... immediate
+ 
+checking whether C compiler accepts -std=c11...  
+yes
+ 
+checking if --enable-attach option specified...  
+no
+ 
+checking if --with-builtins option specified...  
+
+ 
+checking if --enable-diagnostic option specified...  
+no
+checking if --enable-python option specified...  
+no
+ 
+checking if --with-python-prefix option specified...  
+
+ 
+checking if --enable-snappy option specified...  
+no
+ 
+checking if --enable-lz4 option specified...  
+no
+ 
+checking if --enable-sodium option specified...  
+no
+ 
+checking if --enable-tcmalloc option specified...  
+no
+ 
+checking if --enable-memkind option specified...  
+no
+ 
+checking if --with-spinlock option specified...  
+pthread
+ 
+checking if --enable-strict option specified...  
+no
+ 
+checking if --enable-zlib option specified...  
+no
+ 
+checking if --enable-zstd option specified...  
+no
+ 
+checking if --disable-crc32-hardware option specified...  
+no
+ 
+checking if --disable-standalone-build option specified...  
+no
+ 
+checking if --enable-llvm option specified...  
+no
+ 
+checking if --enable-libfuzzer option specified...  
+no
+ 
+checking for FILE *...  
+yes
+ 
+checking for pid_t...  
+yes
+ 
+checking for size_t...  
+yes
+ 
+checking for ssize_t...  
+yes
+ 
+checking for time_t...  
+yes
+ 
+checking for off_t...  
+yes
+ 
+checking for uintmax_t...  
+yes
+ 
+checking for uintptr_t...  
+yes
+ 
+checking x86intrin.h usability...  
+yes
+checking x86intrin.h presence...  
+yes
+ 
+checking for x86intrin.h... yes
+ 
+checking for pthread_create in -lpthread...  
+yes
+ 
+checking for dlopen in -ldl...  
+yes
+ 
+checking for sched_yield in -lrt...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for fallocate...  
+yes
+ 
+checking for ftruncate...  
+yes
+ 
+checking for gettimeofday...  
+yes
+ 
+checking for posix_fadvise...  
+yes
+ 
+checking for posix_fallocate...  
+yes
+ 
+checking for posix_madvise...  
+yes
+ 
+checking for setrlimit...  
+yes
+ 
+checking for strtouq...  
+yes
+ 
+checking for sync_file_range...  
+yes
+ 
+checking for timer_create...  
+yes
+ 
+checking for fdatasync...  
+yes
+ 
+checking for working posix_memalign...  
+yes
+ 
+checking for condition waits with monotonic clock support...  
+
+yes
+ 
+checking for special C compiler options needed for large files...  
+no
+checking for _FILE_OFFSET_BITS value needed for large files...  
+no
+ 
+checking whether byte ordering is bigendian...  
+no
+checking for a 64-bit build...  
+yes
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/sh ./config.status
+ 
+config.status: creating ext/collators/reverse/Makefile
+ 
+config.status: creating ext/collators/revint/Makefile
+ 
+config.status: creating ext/compressors/lz4/Makefile
+ 
+config.status: creating ext/compressors/nop/Makefile
+ 
+config.status: creating ext/compressors/snappy/Makefile
+ 
+config.status: creating ext/compressors/zlib/Makefile
+ 
+config.status: creating ext/compressors/zstd/Makefile
+ 
+config.status: creating ext/encryptors/nop/Makefile
+ 
+config.status: creating ext/encryptors/rotn/Makefile
+ 
+config.status: creating ext/encryptors/sodium/Makefile
+ 
+config.status: creating ext/extractors/csv/Makefile
+ 
+config.status: creating ext/storage_sources/local_store/Makefile
+ 
+config.status: creating ext/test/fail_fs/Makefile
+ 
+config.status: creating lang/python/Makefile
+ 
+config.status: creating test/utility/Makefile
+ 
+config.status: creating examples/c/Makefile
+ 
+config.status: creating test/bloom/Makefile
+ 
+config.status: creating test/checkpoint/Makefile
+ 
+config.status: creating test/cppsuite/Makefile
+ 
+config.status: creating test/csuite/Makefile
+ 
+config.status: creating test/cursor_order/Makefile
+ 
+config.status: creating test/fops/Makefile
+ 
+config.status: creating test/format/Makefile
+ 
+config.status: creating test/fuzz/Makefile
+ 
+config.status: creating test/huge/Makefile
+ 
+config.status: creating test/manydbs/Makefile
+ 
+config.status: creating test/packing/Makefile
+ 
+config.status: creating test/readonly/Makefile
+ 
+config.status: creating test/salvage/Makefile
+ 
+config.status: creating test/syscall/Makefile
+ 
+config.status: creating test/thread/Makefile
+ 
+config.status: creating bench/workgen/Makefile
+ 
+config.status: creating bench/wtperf/Makefile
+ 
+config.status: creating tools/xray_to_optrack/Makefile
+ 
+config.status: creating Makefile
+ 
+rm: cannot remove 'Makefile': Operation not permitted
+
+config.status: error: could not create Makefile
+
+make: *** [Makefile] Error 1
+
+make: Failed to remake makefile `Makefile'.
+
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing autoheader)
+rm -f stamp-h1
+touch build_posix/config.hin
+rm -f stamp-h1
+cd . && /bin/sh ./config.status wiredtiger_config.h
+ 
+if test ! -f wiredtiger_config.h; then rm -f stamp-h1; else :; fi
+if test ! -f wiredtiger_config.h; then make  stamp-h1; else :; fi
+ 
+make  all-recursive
+ 
+make[1]: Entering directory `/root/com/wiredtiger'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing aclocal-1.13 -I build_posix/aclocal
+ 
+ cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing automake-1.13 --foreign
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing autoconf
+ 
+/bin/sh ./config.status --recheck
+ 
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --no-create --no-recursion
+ 
+checking for a BSD-compatible install...  
+/usr/bin/install -c
+ 
+checking whether build environment is sane...  
+yes
+ 
+checking for a thread-safe mkdir -p...  
+/usr/bin/mkdir -p
+ 
+checking for gawk...  
+gawk
+ 
+checking whether make sets $(MAKE)...  
+yes
+ 
+checking whether make supports nested variables...  
+yes
+ 
+checking whether make supports nested variables...  
+(cached) yes
+ 
+checking for cc...  
+cc
+ 
+checking whether the C compiler works...  
+yes
+ 
+checking for C compiler default output file name... a.out
+ 
+checking for suffix of executables...  
+
+ 
+checking whether we are cross compiling...  
+no
+ 
+checking for suffix of object files...  
+o
+ 
+checking whether we are using the GNU C compiler...  
+yes
+ 
+checking whether cc accepts -g...  
+yes
+ 
+checking for cc option to accept ISO C89...  
+none needed
+ 
+checking for style of include used by make...  
+GNU
+ 
+checking dependency style of cc...  
+gcc3
+ 
+checking for c++...  
+no
+ 
+checking for g++...  
+g++
+ 
+checking whether we are using the GNU C++ compiler...  
+yes
+ 
+checking whether g++ accepts -g...  
+yes
+ 
+checking dependency style of g++...  
+gcc3
+ 
+checking dependency style of cc...  
+gcc3
+ 
+checking whether the C++ compiler works...  
+yes
+ 
+checking build system type...  
+x86_64-unknown-linux-gnu
+ 
+checking host system type... x86_64-unknown-linux-gnu
+ 
+checking how to print strings...  
+printf
+ 
+checking for a sed that does not truncate output...  
+/usr/bin/sed
+ 
+checking for grep that handles long lines and -e...  
+/usr/bin/grep
+ 
+checking for egrep...  
+/usr/bin/grep -E
+ 
+checking for fgrep...  
+/usr/bin/grep -F
+ 
+checking for ld used by cc...  
+/usr/bin/ld
+ 
+checking if the linker (/usr/bin/ld) is GNU ld...  
+yes
+ 
+checking for BSD- or MS-compatible name lister (nm)...  
+/usr/bin/nm -B
+ 
+checking the name lister (/usr/bin/nm -B) interface...  
+BSD nm
+ 
+checking whether ln -s works... yes
+checking the maximum length of command line arguments...  
+3458764513820540925
+ 
+checking whether the shell understands some XSI constructs...  
+yes
+ 
+checking whether the shell understands "+="...  
+yes
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format...  
+func_convert_file_noop
+ 
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format...  
+func_convert_file_noop
+ 
+checking for /usr/bin/ld option to reload object files...  
+-r
+ 
+checking for objdump...  
+objdump
+ 
+checking how to recognize dependent libraries...  
+pass_all
+ 
+checking for dlltool...  
+no
+ 
+checking how to associate runtime and link libraries...  
+printf %s\n
+ 
+checking for ar...  
+ar
+ 
+checking for archiver @FILE support...  
+@
+ 
+checking for strip...  
+strip
+ 
+checking for ranlib...  
+ranlib
+ 
+checking command to parse /usr/bin/nm -B output from cc object...  
+ok
+ 
+checking for sysroot... no
+ 
+checking for mt...  
+no
+ 
+checking if : is a manifest tool...  
+no
+ 
+checking how to run the C preprocessor...  
+cc -E
+ 
+checking for ANSI C header files...  
+yes
+ 
+checking for sys/types.h...  
+yes
+ 
+checking for sys/stat.h...  
+yes
+ 
+checking for stdlib.h...  
+yes
+ 
+checking for string.h...  
+yes
+ 
+checking for memory.h...  
+yes
+ 
+checking for strings.h...  
+yes
+ 
+checking for inttypes.h...  
+yes
+ 
+checking for stdint.h...  
+yes
+ 
+checking for unistd.h...  
+yes
+ 
+checking for dlfcn.h...  
+yes
+ 
+checking for objdir...  
+.libs
+ 
+checking if cc supports -fno-rtti -fno-exceptions...  
+no
+ 
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works...  
+yes
+ 
+checking if cc static flag -static works...  
+no
+ 
+checking if cc supports -c -o file.o...  
+yes
+ 
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries...  
+yes
+ 
+checking whether -lc should be explicitly linked in...  
+no
+checking dynamic linker characteristics...  
+GNU/Linux ld.so
+ 
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible...  
+yes
+ 
+checking if libtool supports shared libraries... yes
+ 
+checking whether to build shared libraries...  
+yes
+checking whether to build static libraries...  
+yes
+ 
+checking how to run the C++ preprocessor...  
+g++ -E
+ 
+checking for ld used by g++...  
+/usr/bin/ld -m elf_x86_64
+ 
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld...  
+yes
+ 
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries...  
+yes
+ 
+checking for g++ option to produce PIC...  
+-fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works...  
+yes
+ 
+checking if g++ static flag -static works...  
+no
+ 
+checking if g++ supports -c -o file.o...  
+yes
+ 
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+ 
+checking dynamic linker characteristics...  
+(cached)  
+GNU/Linux ld.so
+ 
+checking how to hardcode library paths into programs... immediate
+ 
+checking whether C compiler accepts -std=c11...  
+yes
+ 
+checking if --enable-attach option specified...  
+no
+checking if --with-builtins option specified...  
+
+ 
+checking if --enable-diagnostic option specified...  
+no
+ 
+checking if --enable-python option specified...  
+no
+ 
+checking if --with-python-prefix option specified...  
+
+ 
+checking if --enable-snappy option specified...  
+no
+ 
+checking if --enable-lz4 option specified...  
+no
+ 
+checking if --enable-sodium option specified...  
+no
+ 
+checking if --enable-tcmalloc option specified...  
+no
+ 
+checking if --enable-memkind option specified...  
+no
+ 
+checking if --with-spinlock option specified...  
+pthread
+ 
+checking if --enable-strict option specified...  
+no
+ 
+checking if --enable-zlib option specified...  
+no
+ 
+checking if --enable-zstd option specified...  
+no
+ 
+checking if --disable-crc32-hardware option specified...  
+no
+ 
+checking if --disable-standalone-build option specified...  
+no
+ 
+checking if --enable-llvm option specified...  
+no
+ 
+checking if --enable-libfuzzer option specified...  
+no
+ 
+checking for FILE *...  
+yes
+ 
+checking for pid_t...  
+yes
+ 
+checking for size_t...  
+yes
+ 
+checking for ssize_t...  
+yes
+ 
+checking for time_t...  
+yes
+checking for off_t...  
+yes
+ 
+checking for uintmax_t...  
+yes
+ 
+checking for uintptr_t...  
+yes
+ 
+checking x86intrin.h usability...  
+yes
+checking x86intrin.h presence...  
+yes
+checking for x86intrin.h...  
+yes
+ 
+checking for pthread_create in -lpthread...  
+yes
+ 
+checking for dlopen in -ldl...  
+yes
+ 
+checking for sched_yield in -lrt...  
+yes
+ 
+checking for clock_gettime...  
+yes
+ 
+checking for fallocate...  
+yes
+ 
+checking for ftruncate...  
+yes
+ 
+checking for gettimeofday...  
+yes
+ 
+checking for posix_fadvise...  
+yes
+ 
+checking for posix_fallocate...  
+yes
+ 
+checking for posix_madvise...  
+yes
+ 
+checking for setrlimit...  
+yes
+ 
+checking for strtouq...  
+yes
+ 
+checking for sync_file_range...  
+yes
+ 
+checking for timer_create...  
+yes
+ 
+checking for fdatasync...  
+yes
+ 
+checking for working posix_memalign...  
+yes
+ 
+checking for condition waits with monotonic clock support...  
+
+yes
+ 
+checking for special C compiler options needed for large files... no
+ 
+checking for _FILE_OFFSET_BITS value needed for large files...  
+no
+ 
+checking whether byte ordering is bigendian...  
+no
+checking for a 64-bit build...  
+yes
+ 
+checking that generated files are newer than configure...  
+done
+ 
+configure: creating ./config.status
+ 
+ /bin/sh ./config.status
+ 
+config.status: creating ext/collators/reverse/Makefile
+ 
+config.status: creating ext/collators/revint/Makefile
+ 
+config.status: creating ext/compressors/lz4/Makefile
+ 
+config.status: creating ext/compressors/nop/Makefile
+ 
+config.status: creating ext/compressors/snappy/Makefile
+ 
+config.status: creating ext/compressors/zlib/Makefile
+ 
+config.status: creating ext/compressors/zstd/Makefile
+ 
+config.status: creating ext/encryptors/nop/Makefile
+ 
+config.status: creating ext/encryptors/rotn/Makefile
+ 
+config.status: creating ext/encryptors/sodium/Makefile
+ 
+config.status: creating ext/extractors/csv/Makefile
+ 
+config.status: creating ext/storage_sources/local_store/Makefile
+ 
+config.status: creating ext/test/fail_fs/Makefile
+ 
+config.status: creating lang/python/Makefile
+ 
+config.status: creating test/utility/Makefile
+ 
+config.status: creating examples/c/Makefile
+ 
+config.status: creating test/bloom/Makefile
+ 
+config.status: creating test/checkpoint/Makefile
+ 
+config.status: creating test/cppsuite/Makefile
+ 
+config.status: creating test/csuite/Makefile
+ 
+config.status: creating test/cursor_order/Makefile
+ 
+config.status: creating test/fops/Makefile
+ 
+config.status: creating test/format/Makefile
+ 
+config.status: creating test/fuzz/Makefile
+ 
+config.status: creating test/huge/Makefile
+ 
+config.status: creating test/manydbs/Makefile
+ 
+config.status: creating test/packing/Makefile
+ 
+config.status: creating test/readonly/Makefile
+ 
+config.status: creating test/salvage/Makefile
+ 
+config.status: creating test/syscall/Makefile
+ 
+config.status: creating test/thread/Makefile
+ 
+config.status: creating bench/workgen/Makefile
+ 
+config.status: creating bench/wtperf/Makefile
+ 
+config.status: creating tools/xray_to_optrack/Makefile
+ 
+config.status: creating Makefile
+ 
+rm: cannot remove 'Makefile': Operation not permitted
+
+config.status: error: could not create Makefile
+
+make[1]: *** [Makefile] Error 1
+
+make[1]: Failed to remake makefile `Makefile'.
+
+fail=; \
+if (target_option=k; case ${target_option-} in ?) ;; *) echo "am__make_running_with_option: internal error: invalid" "target option '${target_option-}' specified" >&2; exit 1;; esac; has_opt=no; sane_makeflags=$MAKEFLAGS; if test -n ' Makefile src/block/.deps/block_addr.Plo src/block/.deps/block_cache.Plo src/block/.deps/block_ckpt.Plo src/block/.deps/block_ckpt_scan.Plo src/block/.deps/block_compact.Plo src/block/.deps/block_ext.Plo src/block/.deps/block_map.Plo src/block/.deps/block_mgr.Plo src/block/.deps/block_open.Plo src/block/.deps/block_read.Plo src/block/.deps/block_session.Plo src/block/.deps/block_slvg.Plo src/block/.deps/block_tiered.Plo src/block/.deps/block_vrfy.Plo src/block/.deps/block_write.Plo src/bloom/.deps/bloom.Plo src/btree/.deps/bt_compact.Plo src/btree/.deps/bt_curnext.Plo src/btree/.deps/bt_curprev.Plo src/btree/.deps/bt_cursor.Plo src/btree/.deps/bt_debug.Plo src/btree/.deps/bt_delete.Plo src/btree/.deps/bt_discard.Plo src/btree/.deps/bt_handle.Plo src/btree/.deps/bt_huffman.Plo src/btree/.deps/bt_import.Plo src/btree/.deps/bt_io.Plo src/btree/.deps/bt_misc.Plo src/btree/.deps/bt_ovfl.Plo src/btree/.deps/bt_page.Plo src/btree/.deps/bt_random.Plo src/btree/.deps/bt_read.Plo src/btree/.deps/bt_ret.Plo src/btree/.deps/bt_slvg.Plo src/btree/.deps/bt_split.Plo src/btree/.deps/bt_stat.Plo src/btree/.deps/bt_sync.Plo src/btree/.deps/bt_upgrade.Plo src/btree/.deps/bt_vrfy.Plo src/btree/.deps/bt_vrfy_dsk.Plo src/btree/.deps/bt_walk.Plo src/btree/.deps/col_modify.Plo src/btree/.deps/col_srch.Plo src/btree/.deps/row_key.Plo src/btree/.deps/row_modify.Plo src/btree/.deps/row_srch.Plo src/checksum/arm64/.deps/crc32-arm64.Plo src/checksum/power8/.deps/crc32.Plo src/checksum/power8/.deps/crc32_wrapper.Plo src/checksum/software/.deps/checksum.Plo src/checksum/x86/.deps/crc32-x86-alt.Plo src/checksum/x86/.deps/crc32-x86.Plo src/checksum/zseries/.deps/crc32-s390x.Plo src/checksum/zseries/.deps/crc32le-vx.Plo src/config/.deps/config.Plo src/config/.deps/config_api.Plo src/config/.deps/config_check.Plo src/config/.deps/config_collapse.Plo src/config/.deps/config_def.Plo src/config/.deps/config_ext.Plo src/config/.deps/test_config.Plo src/conn/.deps/api_calc_modify.Plo src/conn/.deps/api_strerror.Plo src/conn/.deps/api_version.Plo src/conn/.deps/conn_api.Plo src/conn/.deps/conn_cache.Plo src/conn/.deps/conn_cache_pool.Plo src/conn/.deps/conn_capacity.Plo src/conn/.deps/conn_ckpt.Plo src/conn/.deps/conn_dhandle.Plo src/conn/.deps/conn_handle.Plo src/conn/.deps/conn_log.Plo src/conn/.deps/conn_open.Plo src/conn/.deps/conn_reconfig.Plo src/conn/.deps/conn_stat.Plo src/conn/.deps/conn_sweep.Plo src/conn/.deps/conn_tiered.Plo src/cursor/.deps/cur_backup.Plo src/cursor/.deps/cur_backup_incr.Plo src/cursor/.deps/cur_bulk.Plo src/cursor/.deps/cur_config.Plo src/cursor/.deps/cur_ds.Plo src/cursor/.deps/cur_dump.Plo src/cursor/.deps/cur_file.Plo src/cursor/.deps/cur_hs.Plo src/cursor/.deps/cur_index.Plo src/cursor/.deps/cur_join.Plo src/cursor/.deps/cur_json.Plo src/cursor/.deps/cur_log.Plo src/cursor/.deps/cur_metadata.Plo src/cursor/.deps/cur_stat.Plo src/cursor/.deps/cur_std.Plo src/cursor/.deps/cur_table.Plo src/evict/.deps/evict_file.Plo src/evict/.deps/evict_lru.Plo src/evict/.deps/evict_page.Plo src/evict/.deps/evict_stat.Plo src/history/.deps/hs_conn.Plo src/history/.deps/hs_cursor.Plo src/history/.deps/hs_rec.Plo src/history/.deps/hs_verify.Plo src/log/.deps/log.Plo src/log/.deps/log_auto.Plo src/log/.deps/log_slot.Plo src/log/.deps/log_sys.Plo src/lsm/.deps/lsm_cursor.Plo src/lsm/.deps/lsm_cursor_bulk.Plo src/lsm/.deps/lsm_manager.Plo src/lsm/.deps/lsm_merge.Plo src/lsm/.deps/lsm_meta.Plo src/lsm/.deps/lsm_stat.Plo src/lsm/.deps/lsm_tree.Plo src/lsm/.deps/lsm_work_unit.Plo src/lsm/.deps/lsm_worker.Plo src/meta/.deps/meta_apply.Plo src/meta/.deps/meta_ckpt.Plo src/meta/.deps/meta_ext.Plo src/meta/.deps/meta_table.Plo src/meta/.deps/meta_track.Plo src/meta/.deps/meta_turtle.Plo src/optrack/.deps/optrack.Plo src/os_common/.deps/filename.Plo src/os_common/.deps/os_abort.Plo src/os_common/.deps/os_alloc.Plo src/os_common/.deps/os_errno.Plo src/os_common/.deps/os_fhandle.Plo src/os_common/.deps/os_fs_inmemory.Plo src/os_common/.deps/os_fstream.Plo src/os_common/.deps/os_fstream_stdio.Plo src/os_common/.deps/os_getopt.Plo src/os_common/.deps/os_strtouq.Plo src/os_posix/.deps/os_dir.Plo src/os_posix/.deps/os_dlopen.Plo src/os_posix/.deps/os_fallocate.Plo src/os_posix/.deps/os_fs.Plo src/os_posix/.deps/os_getenv.Plo src/os_posix/.deps/os_map.Plo src/os_posix/.deps/os_mtx_cond.Plo src/os_posix/.deps/os_once.Plo src/os_posix/.deps/os_pagesize.Plo src/os_posix/.deps/os_path.Plo src/os_posix/.deps/os_priv.Plo src/os_posix/.deps/os_setvbuf.Plo src/os_posix/.deps/os_sleep.Plo src/os_posix/.deps/os_snprintf.Plo src/os_posix/.deps/os_thread.Plo src/os_posix/.deps/os_time.Plo src/os_posix/.deps/os_yield.Plo src/os_win/.deps/os_dir.Plo src/os_win/.deps/os_dlopen.Plo src/os_win/.deps/os_fs.Plo src/os_win/.deps/os_getenv.Plo src/os_win/.deps/os_map.Plo src/os_win/.deps/os_mtx_cond.Plo src/os_win/.deps/os_once.Plo src/os_win/.deps/os_pagesize.Plo src/os_win/.deps/os_path.Plo src/os_win/.deps/os_priv.Plo src/os_win/.deps/os_setvbuf.Plo src/os_win/.deps/os_sleep.Plo src/os_win/.deps/os_snprintf.Plo src/os_win/.deps/os_thread.Plo src/os_win/.deps/os_time.Plo src/os_win/.deps/os_utf8.Plo src/os_win/.deps/os_winerr.Plo src/os_win/.deps/os_yield.Plo src/packing/.deps/pack_api.Plo src/packing/.deps/pack_impl.Plo src/packing/.deps/pack_stream.Plo src/reconcile/.deps/rec_child.Plo src/reconcile/.deps/rec_col.Plo src/reconcile/.deps/rec_dictionary.Plo src/reconcile/.deps/rec_row.Plo src/reconcile/.deps/rec_track.Plo src/reconcile/.deps/rec_visibility.Plo src/reconcile/.deps/rec_write.Plo src/schema/.deps/schema_alter.Plo src/schema/.deps/schema_create.Plo src/schema/.deps/schema_drop.Plo src/schema/.deps/schema_list.Plo src/schema/.deps/schema_open.Plo src/schema/.deps/schema_plan.Plo src/schema/.deps/schema_project.Plo src/schema/.deps/schema_rename.Plo src/schema/.deps/schema_stat.Plo src/schema/.deps/schema_truncate.Plo src/schema/.deps/schema_util.Plo src/schema/.deps/schema_worker.Plo src/session/.deps/session_api.Plo src/session/.deps/session_compact.Plo src/session/.deps/session_dhandle.Plo src/support/.deps/cond_auto.Plo src/support/.deps/crypto.Plo src/support/.deps/err.Plo src/support/.deps/generation.Plo src/support/.deps/global.Plo src/support/.deps/hash_city.Plo src/support/.deps/hash_fnv.Plo src/support/.deps/hazard.Plo src/support/.deps/hex.Plo src/support/.deps/huffman.Plo src/support/.deps/lock_ext.Plo src/support/.deps/modify.Plo src/support/.deps/mtx_rw.Plo src/support/.deps/pow.Plo src/support/.deps/rand.Plo src/support/.deps/scratch.Plo src/support/.deps/stat.Plo src/support/.deps/thread_group.Plo src/support/.deps/timestamp.Plo src/support/.deps/update_vector.Plo src/tiered/.deps/tiered_config.Plo src/tiered/.deps/tiered_handle.Plo src/tiered/.deps/tiered_opener.Plo src/tiered/.deps/tiered_work.Plo src/txn/.deps/txn.Plo src/txn/.deps/txn_ckpt.Plo src/txn/.deps/txn_ext.Plo src/txn/.deps/txn_log.Plo src/txn/.deps/txn_recover.Plo src/txn/.deps/txn_rollback_to_stable.Plo src/txn/.deps/txn_timestamp.Plo src/utilities/.deps/util_alter.Po src/utilities/.deps/util_backup.Po src/utilities/.deps/util_compact.Po src/utilities/.deps/util_cpyright.Po src/utilities/.deps/util_create.Po src/utilities/.deps/util_downgrade.Po src/utilities/.deps/util_drop.Po src/utilities/.deps/util_dump.Po src/utilities/.deps/util_list.Po src/utilities/.deps/util_load.Po src/utilities/.deps/util_load_json.Po src/utilities/.deps/util_loadtext.Po src/utilities/.deps/util_main.Po src/utilities/.deps/util_misc.Po src/utilities/.deps/util_printlog.Po src/utilities/.deps/util_read.Po src/utilities/.deps/util_rename.Po src/utilities/.deps/util_salvage.Po src/utilities/.deps/util_stat.Po src/utilities/.deps/util_truncate.Po src/utilities/.deps/util_upgrade.Po src/utilities/.deps/util_verbose.Po src/utilities/.deps/util_verify.Po src/utilities/.deps/util_write.Po' && test -n '1'; then sane_makeflags=$MFLAGS; else case $MAKEFLAGS in *\\[\ \	]*) bs=\\; sane_makeflags=`printf '%s\n' "$MAKEFLAGS" | sed "s/$bs$bs[$bs $bs	]*//g"`;; esac; fi; skip_next=no; strip_trailopt () { flg=`printf '%s\n' "$flg" | sed "s/$1.*$//"`; }; for flg in $sane_makeflags; do test $skip_next = yes && { skip_next=no; continue; }; case $flg in *=*|--*) continue;; -*I) strip_trailopt 'I'; skip_next=yes;; -*I?*) strip_trailopt 'I';; -*O) strip_trailopt 'O'; skip_next=yes;; -*O?*) strip_trailopt 'O';; -*l) strip_trailopt 'l'; skip_next=yes;; -*l?*) strip_trailopt 'l';; -[dEDm]) skip_next=yes;; -[JT]) skip_next=yes;; esac; case $flg in *$target_option*) has_opt=yes; break;; esac; done; test $has_opt = yes); then \
+  failcom='fail=yes'; \
+else \
+  failcom='exit 1'; \
+fi; \
+dot_seen=no; \
+target=`echo all-recursive | sed s/-recursive//`; \
+case "all-recursive" in \
+  distclean-* | maintainer-clean-*) list='ext/collators/reverse ext/collators/revint ext/compressors/lz4 ext/compressors/nop ext/compressors/snappy ext/compressors/zlib ext/compressors/zstd ext/encryptors/nop ext/encryptors/rotn ext/encryptors/sodium ext/extractors/csv ext/storage_sources/local_store ext/test/fail_fs . lang/python test/utility examples/c test/bloom test/checkpoint test/cppsuite test/csuite test/cursor_order test/fops test/format test/fuzz test/huge test/manydbs test/packing test/readonly test/salvage test/syscall test/thread bench/workgen bench/wtperf tools/xray_to_optrack' ;; \
+  *) list='ext/collators/reverse ext/collators/revint  ext/compressors/nop    ext/encryptors/nop ext/encryptors/rotn  ext/extractors/csv ext/storage_sources/local_store ext/test/fail_fs .  test/utility examples/c test/bloom test/checkpoint test/cppsuite test/csuite test/cursor_order test/fops test/format  test/huge test/manydbs test/packing test/readonly test/salvage test/syscall test/thread  bench/wtperf ' ;; \
+esac; \
+for subdir in $list; do \
+  echo "Making $target in $subdir"; \
+  if test "$subdir" = "."; then \
+    dot_seen=yes; \
+    local_target="$target-am"; \
+  else \
+    local_target="$target"; \
+  fi; \
+  (CDPATH="${ZSH_VERSION+.}:" && cd $subdir && make  $local_target) \
+  || eval $failcom; \
+done; \
+if test "$dot_seen" = "no"; then \
+  make  "$target-am" || exit 1; \
+fi; test -z "$fail"
+ 
+Making all in ext/collators/reverse
+ 
+make[2]: Entering directory `/root/com/wiredtiger/ext/collators/reverse'
+cd ../../.. && make  am--refresh
+ 
+make[3]: Entering directory `/root/com/wiredtiger'
+ 
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing aclocal-1.13 -I build_posix/aclocal
+ 
+ cd . && /bin/sh /root/com/wiredtiger/build_posix/gnu-support/missing automake-1.13 --foreign
+ 
+make[3]: *** Deleting file `Makefile.in'
+
+make[3]: *** [Makefile.in] Interrupt
+
+make[2]: *** [../../../aclocal.m4] Interrupt
+
+make[1]: *** [all-recursive] Interrupt
+
+make: *** [all] Interrupt
+
